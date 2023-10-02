@@ -1,7 +1,7 @@
 local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/v1mper228/yba-all-scripts/main/yba%20auto%20jorato%20kujo%20farm", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-  print("whitelsitik") -- Ваш скрипт
+loadstring(game:HttpGet("https://raw.githubusercontent.com/v1mper228/yba-all-scripts/main/jotarokujo%20farm", true))()
 else
   game:service('Players').LocalPlayer:Kick('YOU NO WHITELISTED')
 end
